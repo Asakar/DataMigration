@@ -2,7 +2,7 @@ Data Migration
 
 This project takes a CSV file holding records of a companies employees and inserts it into a MySql Database. 
 The java files makes use of DAO and DTO design patterns and also handles incorrect data the CSV file. 
-The incorrect data the java file handles are where 2 or more employees have the same employeeId or if 2 or more employees have the same email. 
+The incorrect data the java file handles are where 2 or more employees have the same employee id or if 2 or more employees have the same email. 
 The incorrect data is written out to an txt file. To achieve this in an efficient manner Collection classes are used as well as multi threading.
 
 How to run the project 
