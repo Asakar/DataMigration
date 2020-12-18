@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b542c2d-495c-465a-93e2-b9599b8a91dd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1leAUmDjGxoQxeqk1DT7hhjWLED" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="org.example.CSVReader" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.data.migration.App" />
+      <module name="DataMigrationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.data.migration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.datamigration.App" />
+      <module name="DataMigrationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.datamigration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CSVReader" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.datamigration.controller.CSVReader" />
+      <module name="DataMigrationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.datamigration.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.isCleanRecordsAddedCorrectlyToDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataMigrationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.datamigration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.datamigration" />
+      <option name="MAIN_CLASS_NAME" value="org.datamigration.AppTest" />
+      <option name="METHOD_NAME" value="isCleanRecordsAddedCorrectlyToDatabase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.isCleanRecordsAddedToDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataMigrationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.datamigration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.datamigration" />
+      <option name="MAIN_CLASS_NAME" value="org.datamigration.AppTest" />
+      <option name="METHOD_NAME" value="isCleanRecordsAddedToDatabase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.isFileCompletelyRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataMigrationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.datamigration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.datamigration" />
+      <option name="MAIN_CLASS_NAME" value="org.datamigration.AppTest" />
+      <option name="METHOD_NAME" value="isFileCompletelyRead" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="JUnit.AppTest.isCleanRecordsAddedCorrectlyToDatabase" />
+        <item itemvalue="JUnit.AppTest.isCleanRecordsAddedToDatabase" />
+        <item itemvalue="JUnit.AppTest.isFileCompletelyRead" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b542c2d-495c-465a-93e2-b9599b8a91dd" name="Default Changelist" comment="" />
+      <created>1607947200673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607947200673</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="316" y="65" key="#App" timestamp="1608324029045">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="316" y="65" key="#App/0.0.1280.800@0.0.1280.800" timestamp="1608324029045" />
+    <state x="316" y="65" key="#App_(2)" timestamp="1608322830302">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="316" y="65" key="#App_(2)/0.0.1280.800@0.0.1280.800" timestamp="1608322830302" />
+    <state x="240" y="65" width="811" height="669" key="#Project_Structure" timestamp="1607947315939">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="65" width="811" height="669" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1607947315939" />
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1608316653639">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1608316653639" />
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.720@0.23.1280.720" timestamp="1608315987898" />
+    <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1608287726487">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1608287726487" />
+    <state x="370" y="96" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1608291696521">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="370" y="96" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.800@0.0.1280.800" timestamp="1608291696521" />
+    <state x="356" y="125" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1607953387392">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="356" y="125" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1280.800@0.0.1280.800" timestamp="1607953387392" />
+    <state x="217" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607963930536">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="217" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800@0.0.1280.800" timestamp="1607963930536" />
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608286527838">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1608286527838" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1608324371550">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608324371550" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.720@0.23.1280.720" timestamp="1608060172730" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1608324371548">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1608324371548" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.720@0.23.1280.720" timestamp="1608060172721" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1608324371548">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1608324371548" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.720@0.23.1280.720" timestamp="1608060172712" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1608324371549">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1608324371549" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.720@0.23.1280.720" timestamp="1608060172724" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1608322615031">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608322615031" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.23.1280.720@0.23.1280.720" timestamp="1608207262631" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1608322615030">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1608322615030" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.23.1280.720@0.23.1280.720" timestamp="1608207262630" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1608322615030">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1608322615030" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.23.1280.720@0.23.1280.720" timestamp="1608207262628" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1608322615031">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1608322615031" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.23.1280.720@0.23.1280.720" timestamp="1608207262630" />
+    <state x="141" y="0" key="SettingsEditor" timestamp="1607954696713">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="141" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1607954696713" />
+    <state x="423" y="184" key="chooseDestDirectoryDialog" timestamp="1607953385151">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="423" y="184" key="chooseDestDirectoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1607953385151" />
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1608322682608">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1608322682608" />
+    <state x="615" y="320" key="extract.method.dialog" timestamp="1608057837396">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="615" y="320" key="extract.method.dialog/0.0.1280.800@0.0.1280.800" timestamp="1608057837396" />
+    <state x="17" y="97" key="new project wizard" timestamp="1608322235787">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="17" y="97" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1608322235787" />
+    <state x="346" y="23" key="refactoring.ChangeSignatureDialog" timestamp="1607963613018">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="346" y="23" key="refactoring.ChangeSignatureDialog/0.0.1280.800@0.0.1280.800" timestamp="1607963613018" />
+    <state x="305" y="185" key="run.anything.popup" timestamp="1608288172109">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="185" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1608288172109" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1608237088009">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1608237088009" />
+  </component>
+</project>
