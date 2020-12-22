@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b542c2d-495c-465a-93e2-b9599b8a91dd" name="Default Changelist" comment="" />
+    <list default="true" id="6b542c2d-495c-465a-93e2-b9599b8a91dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/CSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/CSVReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/JDBCTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/JDBCTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/model/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/model/EmployeeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/login.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/data/migration/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/data/migration/AppTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1leAUmDjGxoQxeqk1DT7hhjWLED" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,7 +34,9 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/example" />
@@ -30,7 +44,8 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -44,7 +59,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
+  <component name="RunManager" selected="Application.EmployeeDAO">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.data.migration.App" />
       <module name="DataMigrationProject" />
@@ -71,12 +86,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CSVReader (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.data.migration.controller.CSVReader" />
+      <module name="DataMigrationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.data.migration.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CSVReader" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.datamigration.controller.CSVReader" />
       <module name="DataMigrationProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.datamigration.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.data.migration.model.EmployeeDAO" />
+      <module name="DataMigrationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.data.migration.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,28 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.isFileCompletelyRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataMigrationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.datamigration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.datamigration" />
-      <option name="MAIN_CLASS_NAME" value="org.datamigration.AppTest" />
-      <option name="METHOD_NAME" value="isFileCompletelyRead" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeDAO" />
         <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.CSVReader (1)" />
         <item itemvalue="JUnit.AppTest.isCleanRecordsAddedCorrectlyToDatabase" />
         <item itemvalue="JUnit.AppTest.isCleanRecordsAddedToDatabase" />
-        <item itemvalue="JUnit.AppTest.isFileCompletelyRead" />
       </list>
     </recent_temporary>
   </component>
@@ -192,62 +218,78 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1608286527838" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1608324371550">
+    <state x="313" y="66" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1608579796213">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608324371550" />
+    <state x="313" y="66" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1280.800@0.0.1280.800" timestamp="1608579796213" />
+    <state x="385" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1608400385423">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="385" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1608400385423" />
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom" timestamp="1608593327552">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608593327552" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.720@0.23.1280.720" timestamp="1608060172730" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1608324371548">
+    <state width="1238" height="214" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1608583129287" />
+    <state width="1238" height="263" key="GridCell.Tab.0.center" timestamp="1608593327550">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1608324371548" />
+    <state width="1238" height="263" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1608593327550" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.720@0.23.1280.720" timestamp="1608060172721" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1608324371548">
+    <state width="1238" height="214" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1608583129285" />
+    <state width="1238" height="263" key="GridCell.Tab.0.left" timestamp="1608593327549">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1608324371548" />
+    <state width="1238" height="263" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1608593327549" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.720@0.23.1280.720" timestamp="1608060172712" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1608324371549">
+    <state width="1238" height="214" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1608583129283" />
+    <state width="1238" height="263" key="GridCell.Tab.0.right" timestamp="1608593327551">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1608324371549" />
+    <state width="1238" height="263" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1608593327551" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.720@0.23.1280.720" timestamp="1608060172724" />
-    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1608322615031">
+    <state width="1238" height="214" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1608583129286" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1608593327555">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608322615031" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608593327555" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.23.1280.720@0.23.1280.720" timestamp="1608207262631" />
-    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1608322615030">
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1608593327553">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1608322615030" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1608593327553" />
     <state width="1238" height="263" key="GridCell.Tab.1.center/0.23.1280.720@0.23.1280.720" timestamp="1608207262630" />
-    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1608322615030">
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1608593327552">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1608322615030" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1608593327552" />
     <state width="1238" height="263" key="GridCell.Tab.1.left/0.23.1280.720@0.23.1280.720" timestamp="1608207262628" />
-    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1608322615031">
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1608593327554">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1608322615031" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1608593327554" />
     <state width="1238" height="263" key="GridCell.Tab.1.right/0.23.1280.720@0.23.1280.720" timestamp="1608207262630" />
-    <state x="141" y="0" key="SettingsEditor" timestamp="1607954696713">
+    <state x="192" y="39" key="SettingsEditor" timestamp="1608582382865">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="141" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1607954696713" />
+    <state x="192" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1608582382865" />
     <state x="423" y="184" key="chooseDestDirectoryDialog" timestamp="1607953385151">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="423" y="184" key="chooseDestDirectoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1607953385151" />
-    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1608322682608">
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1608635221983">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1608322682608" />
-    <state x="615" y="320" key="extract.method.dialog" timestamp="1608057837396">
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1608635221983" />
+    <state x="615" y="320" key="extract.method.dialog" timestamp="1608579823832">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="615" y="320" key="extract.method.dialog/0.0.1280.800@0.0.1280.800" timestamp="1608057837396" />
+    <state x="615" y="320" key="extract.method.dialog/0.0.1280.800@0.0.1280.800" timestamp="1608579823832" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1608400629411">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1280.800@0.0.1280.800" timestamp="1608400629411" />
     <state x="17" y="97" key="new project wizard" timestamp="1608322235787">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

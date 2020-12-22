@@ -16,8 +16,9 @@ public class CSVReader {
     private static int linesRead;
 
     public static List<EmployeeDTO> readAndCleanEmployees(String path) {
+
         linesRead = 0;
-        Long start = System.nanoTime();
+        long start = System.nanoTime();
 
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader(path));
@@ -41,9 +42,10 @@ public class CSVReader {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
         System.out.println("Number of lines read: " + linesRead);
-        Long finish = System.nanoTime();
-        Long totalTime = (finish - start);
+        long finish = System.nanoTime();
+        long totalTime = (finish - start);
         System.out.println("Time taken to read CSV: " + totalTime/1_000_000 + " milliseconds");
 
         createCorruptEmployeesListBasedOnId();
@@ -76,7 +78,6 @@ public class CSVReader {
             TxtWriter.writeEmployees(corruptEmployees, "employees_with_corrupt_emails");
         }
     }
-
 
     public static void removeDuplicateEmployees() {
         for(EmployeeDTO employeeCheck: getTempEmployees()) {

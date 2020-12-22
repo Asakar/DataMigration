@@ -1,13 +1,11 @@
 package org.data.migration;
 
-
 import org.data.migration.controller.CSVReader;
 import org.data.migration.controller.ThreadProgram;
 import org.data.migration.model.EmployeeDAO;
 import org.data.migration.model.EmployeeDTO;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
 import java.sql.Date;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -38,13 +36,15 @@ public class AppTest {
      */
     @Test
     public void isCleanRecordsAddedCorrectlyToDatabase() throws SQLException {
-        EmployeeDAO.connectionDAO("jdbc:mysql://localhost:3306/employees");
-        EmployeeDAO.updateDB("TRUNCATE `employees`.`company`");
+        EmployeeDAO employeeDAO = new EmployeeDAO();
+        employeeDAO.connectionDAO("jdbc:mysql://localhost:3306/employees");
+        employeeDAO.updateDB("TRUNCATE `employees`.`company`");
         List<EmployeeDTO> fileList = CSVReader.readAndCleanEmployees("src/main/resources/test.csv");
         ThreadProgram test = new ThreadProgram();
         test.threads(fileList, 32);
-        ResultSet databaseResults =  EmployeeDAO.queryDB("SELECT * FROM employees.company");
+        ResultSet databaseResults =  employeeDAO.queryDB("SELECT * FROM employees.company");
         int recordNo = 0;
+        assert databaseResults != null;
         while (databaseResults.next()) {
             databaseResults.getInt(1);
             Assertions.assertEquals(Integer.parseInt(fileList.get(recordNo).getEmp_ID()), databaseResults.getInt(1));
