@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b542c2d-495c-465a-93e2-b9599b8a91dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/CSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/CSVReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/JDBCTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/JDBCTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/ThreadProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/ThreadProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/model/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/model/EmployeeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/login.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/login.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/data/migration/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/data/migration/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -278,10 +277,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="423" y="184" key="chooseDestDirectoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1607953385151" />
-    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1608635221983">
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1608655119815">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1608635221983" />
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1608655119815" />
     <state x="615" y="320" key="extract.method.dialog" timestamp="1608579823832">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

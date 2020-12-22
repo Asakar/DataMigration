@@ -13,8 +13,6 @@ public class EmployeeDAO {
 
     private Connection connection;
     private Properties properties = new Properties();
-    private String schema;
-    private String table;
 
     private void createProperties() {
         try {
@@ -61,7 +59,7 @@ public class EmployeeDAO {
     public void insertEmployees(List<EmployeeDTO> list) {
         List<EmployeeDTO> listOfEmployeesAlreadyInDatabase = new LinkedList<>();
         PreparedStatement preparedStatement;
-//        String strQuery = "INSERT INTO $tableName (col1, col2, col3, col4, col5) VALUES (?,?,?,?,?,?);";
+
         try {
             connection.setAutoCommit(false);
             preparedStatement = connection.prepareStatement(
@@ -89,23 +87,7 @@ public class EmployeeDAO {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-//        TxtWriter.writeEmployees(listOfEmployeesAlreadyInDatabase, "Employees_are_already_in_database");
-    }
 
-    public boolean retrieveEmployeeId() {
-        boolean result = true;
-//        String query = String.format("SELECT * FROM company.employees WHERE emp_id LIKE %s", String.valueOf(employee.getEmp_ID()));
-        String query = ("SELECT * FROM company.employees WHERE emp_id LIKE 111498");
-        try {
-            int value = queryDB(query).getInt(1);
-            System.out.println(value);
-            if(value < 0) {
-                result = false;
-            }
-        } catch (SQLException e) {
-            return false;
-        }
-        return result;
     }
 
     public void insertEmployee(int emp_ID, String namePreFix, String firstName, String middleInitial,
@@ -132,12 +114,6 @@ public class EmployeeDAO {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-    }
-
-    public static void main(String[] args) {
-        EmployeeDAO employeeDAO = new EmployeeDAO();
-        employeeDAO.connectionDAO("jdbc:mysql://localhost:3306/employees");
-        System.out.println(employeeDAO.retrieveEmployeeId());
     }
 
 }

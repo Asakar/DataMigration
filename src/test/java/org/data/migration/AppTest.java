@@ -36,6 +36,7 @@ public class AppTest {
      */
     @Test
     public void isCleanRecordsAddedCorrectlyToDatabase() throws SQLException {
+
         EmployeeDAO employeeDAO = new EmployeeDAO();
         employeeDAO.connectionDAO("jdbc:mysql://localhost:3306/employees");
         employeeDAO.updateDB("TRUNCATE `employees`.`company`");
@@ -45,6 +46,7 @@ public class AppTest {
         ResultSet databaseResults =  employeeDAO.queryDB("SELECT * FROM employees.company");
         int recordNo = 0;
         assert databaseResults != null;
+
         while (databaseResults.next()) {
             databaseResults.getInt(1);
             Assertions.assertEquals(Integer.parseInt(fileList.get(recordNo).getEmp_ID()), databaseResults.getInt(1));
@@ -61,6 +63,7 @@ public class AppTest {
             Assertions.assertEquals(fileList.get(recordNo).getSalary(), databaseResults.getInt(10));
             recordNo++;
         }
+
         Assertions.assertEquals(recordNo, (recordsInTestFile - numberOfCorruptRecordsInFile));
     }
 

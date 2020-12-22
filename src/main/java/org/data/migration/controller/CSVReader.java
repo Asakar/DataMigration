@@ -24,6 +24,7 @@ public class CSVReader {
             BufferedReader bufferedReader = new BufferedReader(new FileReader(path));
             String line;
             bufferedReader.readLine();
+
             while((line = bufferedReader.readLine()) != null) {
                 String[] array = line.split(",");
                 EmployeeDTO person = createEmployee(array);
@@ -67,7 +68,9 @@ public class CSVReader {
     }
 
     public static void createCorruptEmployeesListBasedOnEmail() {
+
         List<EmployeeDTO> corruptEmployees = new ArrayList<>();
+
         for(EmployeeDTO employeeCheck: getTempEmployees()) {
             String email = employeeCheck.getEmail();
             if(employeeEmails.contains(email) && corruptEmployeeEmails.contains(email)) {
@@ -77,9 +80,11 @@ public class CSVReader {
         if(corruptEmployees.size() > 0) {
             TxtWriter.writeEmployees(corruptEmployees, "employees_with_corrupt_emails");
         }
+
     }
 
     public static void removeDuplicateEmployees() {
+
         for(EmployeeDTO employeeCheck: getTempEmployees()) {
             String id = employeeCheck.getEmp_ID();
             String email = employeeCheck.getEmail();
@@ -87,22 +92,28 @@ public class CSVReader {
                 employees.add(employeeCheck);
             }
         }
+
     }
 
     public static void createCorruptEmployeesListBasedOnId() {
+
         List<EmployeeDTO> corruptEmployees = new ArrayList<>();
+
         for(EmployeeDTO employeeCheck: getTempEmployees()) {
             String id = employeeCheck.getEmp_ID();
             if(employeeIds.contains(id) && corruptEmployeeIds.contains(id)) {
                 corruptEmployees.add(employeeCheck);
             }
         }
+
         if(corruptEmployees.size() > 0) {
             TxtWriter.writeEmployees(corruptEmployees, "employees_with_corrupt_Ids");
         }
+
     }
 
     public static EmployeeDTO createEmployee(String[] array) {
+
         EmployeeDTO employee = new EmployeeDTO();
         employee.setEmp_ID(array[0]);
         employee.setNamePreFix(array[1]);
@@ -115,6 +126,7 @@ public class CSVReader {
         employee.setDateOfJoining(array[8]);
         employee.setSalary(array[9]);
         return employee;
+
     }
 
 }

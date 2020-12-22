@@ -11,7 +11,7 @@ public class ThreadProgram {
         int sizeOfListForEachThread = employeeDTO.size()/threads;
         int initialSize = sizeOfListForEachThread;
         int position = 0;
-        Long start = System.nanoTime();
+        long start = System.nanoTime();
 
         for(Thread t: threadList) {
             if(position == (initialSize*(threads-1))) {
@@ -32,8 +32,8 @@ public class ThreadProgram {
     private void printTimeTaken(Thread t, Long start) {
         while(t.isAlive()) {
         }
-        Long finish = System.nanoTime();
-        Long totalTime = (finish - start);
+        long finish = System.nanoTime();
+        long totalTime = (finish - start);
         System.out.println("Time taken to insert all employees into database: " +
                 totalTime/1_000_000_000 + " seconds");
     }

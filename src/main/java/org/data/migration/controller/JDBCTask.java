@@ -19,9 +19,11 @@ public class JDBCTask implements Runnable{
 
     @Override
     public void run() {
+
         EmployeeDAO employeeDAO = new EmployeeDAO();
         employeeDAO.connectionDAO("jdbc:mysql://localhost:3306/employees");
         employeeDAO.insertEmployees(employeeDTO);
+
     }
 
 }
