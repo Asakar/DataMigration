@@ -23,7 +23,7 @@ public class CSVReader {
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader(path));
             String line;
-            bufferedReader.readLine();
+            bufferedReader.readLine(); // to remove the first line
 
             while((line = bufferedReader.readLine()) != null) {
                 String[] array = line.split(",");

@@ -26,8 +26,6 @@ public class EmployeeDAO {
         createProperties();
         String userName = properties.getProperty("userName");
         String password = properties.getProperty("password");;
-        String schema = properties.getProperty("schema");
-        String table = properties.getProperty("table");
         try {
             connection = DriverManager.getConnection(url, userName, password);
         } catch (SQLException e) {
@@ -57,9 +55,7 @@ public class EmployeeDAO {
     }
 
     public void insertEmployees(List<EmployeeDTO> list) {
-        List<EmployeeDTO> listOfEmployeesAlreadyInDatabase = new LinkedList<>();
         PreparedStatement preparedStatement;
-
         try {
             connection.setAutoCommit(false);
             preparedStatement = connection.prepareStatement(
@@ -87,7 +83,6 @@ public class EmployeeDAO {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
     }
 
     public void insertEmployee(int emp_ID, String namePreFix, String firstName, String middleInitial,
@@ -98,8 +93,8 @@ public class EmployeeDAO {
                     "INSERT INTO `employees`.`company` (`emp_ID`, `name_preFix`, `first_name`, `middle_initial`, `last_name`," +
                             "`gender`, `email`, `date_of_birth`, `date_of_joining`, `salary`)" +
                             " VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
-            preparedStatement.setInt(1,emp_ID); // first column
-            preparedStatement.setString(2, namePreFix); // second column
+            preparedStatement.setInt(1,emp_ID);
+            preparedStatement.setString(2, namePreFix);
             preparedStatement.setString(3, firstName);
             preparedStatement.setString(4, middleInitial);
             preparedStatement.setString(5, lastName);

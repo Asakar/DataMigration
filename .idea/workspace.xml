@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="6b542c2d-495c-465a-93e2-b9599b8a91dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employees_are_already_in_database.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employees_with_corrupt_Ids.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employees_with_corrupt_emails.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/CSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/CSVReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/JDBCTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/JDBCTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/ThreadProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/ThreadProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/TxtWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/controller/TxtWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/model/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/model/EmployeeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/data/migration/model/EmployeeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/migration/model/EmployeeDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/data/migration/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/data/migration/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +62,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmployeeDAO">
+  <component name="RunManager" selected="JUnit.TxtWriterTest">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.data.migration.App" />
       <module name="DataMigrationProject" />
@@ -85,19 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CSVReader (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.data.migration.controller.CSVReader" />
-      <module name="DataMigrationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.data.migration.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CSVReader" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.datamigration.controller.CSVReader" />
       <module name="DataMigrationProject" />
@@ -111,58 +102,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.data.migration.model.EmployeeDAO" />
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataMigrationProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.data.migration.model.*" />
+          <option name="PATTERN" value="org.data.migration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.data.migration" />
+      <option name="MAIN_CLASS_NAME" value="org.data.migration.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.isCleanRecordsAddedCorrectlyToDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CSVReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataMigrationProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.datamigration.*" />
+          <option name="PATTERN" value="org.data.migration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.datamigration" />
-      <option name="MAIN_CLASS_NAME" value="org.datamigration.AppTest" />
-      <option name="METHOD_NAME" value="isCleanRecordsAddedCorrectlyToDatabase" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.data.migration" />
+      <option name="MAIN_CLASS_NAME" value="org.data.migration.CSVReaderTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.isCleanRecordsAddedToDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeDTOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataMigrationProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.datamigration.*" />
+          <option name="PATTERN" value="org.data.migration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.datamigration" />
-      <option name="MAIN_CLASS_NAME" value="org.datamigration.AppTest" />
-      <option name="METHOD_NAME" value="isCleanRecordsAddedToDatabase" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.data.migration" />
+      <option name="MAIN_CLASS_NAME" value="org.data.migration.EmployeeDTOTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TxtWriterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataMigrationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.data.migration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.data.migration" />
+      <option name="MAIN_CLASS_NAME" value="org.data.migration.TxtWriterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmployeeDAO" />
+        <item itemvalue="JUnit.TxtWriterTest" />
+        <item itemvalue="JUnit.EmployeeDTOTest" />
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.CSVReader (1)" />
-        <item itemvalue="JUnit.AppTest.isCleanRecordsAddedCorrectlyToDatabase" />
-        <item itemvalue="JUnit.AppTest.isCleanRecordsAddedToDatabase" />
+        <item itemvalue="JUnit.CSVReaderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +185,9 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="316" y="65" key="#App" timestamp="1608324029045">
       <screen x="0" y="0" width="1280" height="800" />
@@ -192,11 +201,11 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="65" width="811" height="669" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1607947315939" />
-    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1608316653639">
+    <state x="200" y="200" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1609535182237">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1608316653639" />
-    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.720@0.23.1280.720" timestamp="1608315987898" />
+    <state x="200" y="200" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1609535182237" />
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.720@0.23.1280.720" timestamp="1609517022187" />
     <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1608287726487">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -225,28 +234,28 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="385" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1608400385423" />
-    <state width="1238" height="263" key="GridCell.Tab.0.bottom" timestamp="1608593327552">
+    <state width="1238" height="214" key="GridCell.Tab.0.bottom" timestamp="1609600427140">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608593327552" />
+    <state width="1238" height="214" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1609600427140" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.720@0.23.1280.720" timestamp="1608060172730" />
     <state width="1238" height="214" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1608583129287" />
-    <state width="1238" height="263" key="GridCell.Tab.0.center" timestamp="1608593327550">
+    <state width="1238" height="214" key="GridCell.Tab.0.center" timestamp="1609600427139">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1608593327550" />
+    <state width="1238" height="214" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1609600427139" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.720@0.23.1280.720" timestamp="1608060172721" />
     <state width="1238" height="214" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1608583129285" />
-    <state width="1238" height="263" key="GridCell.Tab.0.left" timestamp="1608593327549">
+    <state width="1238" height="214" key="GridCell.Tab.0.left" timestamp="1609600427139">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1608593327549" />
+    <state width="1238" height="214" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1609600427139" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.720@0.23.1280.720" timestamp="1608060172712" />
     <state width="1238" height="214" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1608583129283" />
-    <state width="1238" height="263" key="GridCell.Tab.0.right" timestamp="1608593327551">
+    <state width="1238" height="214" key="GridCell.Tab.0.right" timestamp="1609600427139">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1608593327551" />
+    <state width="1238" height="214" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1609600427139" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.720@0.23.1280.720" timestamp="1608060172724" />
     <state width="1238" height="214" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1608583129286" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1608593327555">
@@ -273,14 +282,18 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="192" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1608582382865" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1608664814477">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1280.800@0.0.1280.800" timestamp="1608664814477" />
     <state x="423" y="184" key="chooseDestDirectoryDialog" timestamp="1607953385151">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="423" y="184" key="chooseDestDirectoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1607953385151" />
-    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1608655119815">
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1609583463783">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1608655119815" />
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1609583463783" />
     <state x="615" y="320" key="extract.method.dialog" timestamp="1608579823832">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -301,9 +314,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="305" y="185" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1608288172109" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1608237088009">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1609532927636">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1608237088009" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1609532927636" />
   </component>
 </project>

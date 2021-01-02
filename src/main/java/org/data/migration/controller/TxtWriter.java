@@ -15,6 +15,7 @@ public class TxtWriter {
             bufferedWriter.newLine();
             for(EmployeeDTO employee: employees) {
                 bufferedWriter.write(employee.toString());
+                bufferedWriter.newLine();
             }
             bufferedWriter.close();
         } catch (IOException e) {
